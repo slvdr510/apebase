@@ -23,4 +23,3 @@ for filename in os.listdir(script_folder):
         os.rename(os.path.join(script_folder, filename), new_filename)
 
 print("Files renamed successfully.")
-
